@@ -1,0 +1,297 @@
+{
+  "outdir": "dataset",
+  "alpha": 0.01,
+  "segments": 4,
+  "sources": {
+    "ibm": [
+      {
+        "segment": 0,
+        "n_bits": 460270,
+        "n_tests": 9,
+        "n_failed": 0,
+        "p_min": 0.010682,
+        "results": [
+          {
+            "name": "seg0 Frequency (monobit)",
+            "statistic": 2.5529,
+            "p_value": 0.010682,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Block frequency (M=128)",
+            "statistic": 3703.2188,
+            "p_value": 0.101773,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Runs",
+            "statistic": 230411,
+            "p_value": 0.410361,
+            "verdict": "PASS",
+            "note": "pi=0.5019"
+          },
+          {
+            "name": "seg0 Longest run of ones (M=128)",
+            "statistic": 7.4023,
+            "p_value": 0.192397,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Spectral (DFT)",
+            "statistic": 0.8202,
+            "p_value": 0.412128,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Approximate entropy (m=10)",
+            "statistic": 1082.3572,
+            "p_value": 0.100189,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Serial (m=8)",
+            "statistic": 109.416,
+            "p_value": 0.881159,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Cumulative sums (forward)",
+            "statistic": 1781.0,
+            "p_value": 0.017321,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg0 Cumulative sums (reverse)",
+            "statistic": 1747.0,
+            "p_value": 0.020045,
+            "verdict": "PASS",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "segment": 1,
+        "n_bits": 460270,
+        "n_tests": 9,
+        "n_failed": 0,
+        "p_min": 0.061076,
+        "results": [
+          {
+            "name": "seg1 Frequency (monobit)",
+            "statistic": 1.4651,
+            "p_value": 0.142882,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Block frequency (M=128)",
+            "statistic": 3679.7188,
+            "p_value": 0.158844,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Runs",
+            "statistic": 229581,
+            "p_value": 0.103097,
+            "verdict": "PASS",
+            "note": "pi=0.4989"
+          },
+          {
+            "name": "seg1 Longest run of ones (M=128)",
+            "statistic": 10.5497,
+            "p_value": 0.061076,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Spectral (DFT)",
+            "statistic": -0.1076,
+            "p_value": 0.914313,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Approximate entropy (m=10)",
+            "statistic": 1039.446,
+            "p_value": 0.361548,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Serial (m=8)",
+            "statistic": 131.9557,
+            "p_value": 0.387323,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Cumulative sums (forward)",
+            "statistic": 1127.0,
+            "p_value": 0.193352,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg1 Cumulative sums (reverse)",
+            "statistic": 1006.0,
+            "p_value": 0.276221,
+            "verdict": "PASS",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "segment": 2,
+        "n_bits": 460270,
+        "n_tests": 9,
+        "n_failed": 0,
+        "p_min": 0.328295,
+        "results": [
+          {
+            "name": "seg2 Frequency (monobit)",
+            "statistic": 0.398,
+            "p_value": 0.690648,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Block frequency (M=128)",
+            "statistic": 3584.4375,
+            "p_value": 0.546501,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Runs",
+            "statistic": 230070,
+            "p_value": 0.848224,
+            "verdict": "PASS",
+            "note": "pi=0.4997"
+          },
+          {
+            "name": "seg2 Longest run of ones (M=128)",
+            "statistic": 4.3453,
+            "p_value": 0.500839,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Spectral (DFT)",
+            "statistic": -0.0789,
+            "p_value": 0.937107,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Approximate entropy (m=10)",
+            "statistic": 1043.5793,
+            "p_value": 0.328295,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Serial (m=8)",
+            "statistic": 115.6438,
+            "p_value": 0.77535,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Cumulative sums (forward)",
+            "statistic": 558.0,
+            "p_value": 0.794465,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg2 Cumulative sums (reverse)",
+            "statistic": 553.0,
+            "p_value": 0.801162,
+            "verdict": "PASS",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "segment": 3,
+        "n_bits": 460270,
+        "n_tests": 9,
+        "n_failed": 0,
+        "p_min": 0.026851,
+        "results": [
+          {
+            "name": "seg3 Frequency (monobit)",
+            "statistic": 0.1327,
+            "p_value": 0.894463,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Block frequency (M=128)",
+            "statistic": 3617.9062,
+            "p_value": 0.390726,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Runs",
+            "statistic": 230304,
+            "p_value": 0.618319,
+            "verdict": "PASS",
+            "note": "pi=0.5001"
+          },
+          {
+            "name": "seg3 Longest run of ones (M=128)",
+            "statistic": 7.1853,
+            "p_value": 0.207221,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Spectral (DFT)",
+            "statistic": 0.275,
+            "p_value": 0.783332,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Approximate entropy (m=10)",
+            "statistic": 1012.332,
+            "p_value": 0.596411,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Serial (m=8)",
+            "statistic": 160.6364,
+            "p_value": 0.026851,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Cumulative sums (forward)",
+            "statistic": 742.0,
+            "p_value": 0.546107,
+            "verdict": "PASS",
+            "note": ""
+          },
+          {
+            "name": "seg3 Cumulative sums (reverse)",
+            "statistic": 652.0,
+            "p_value": 0.665192,
+            "verdict": "PASS",
+            "note": ""
+          }
+        ]
+      }
+    ]
+  }
+}

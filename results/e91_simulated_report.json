@@ -1,0 +1,78 @@
+{
+  "generated": "2026-10-13 09:10:27",
+  "backend": "AerSimulator(device-like-noise)",
+  "eve_sweep": [
+    {
+      "p_eve": 0.0,
+      "qber": 0.034188,
+      "predicted_qber": 0.0,
+      "key_rate": 0.570044,
+      "chsh_S": 2.6458,
+      "sifted_len": 16384,
+      "final_key_bits": 8405
+    },
+    {
+      "p_eve": 0.1,
+      "qber": 0.06105,
+      "predicted_qber": 0.025,
+      "key_rate": 0.336802,
+      "chsh_S": 2.5013,
+      "sifted_len": 16380,
+      "final_key_bits": 4965
+    },
+    {
+      "p_eve": 0.2,
+      "qber": 0.086081,
+      "predicted_qber": 0.05,
+      "key_rate": 0.1535,
+      "chsh_S": 2.3699,
+      "sifted_len": 16382,
+      "final_key_bits": 2263
+    },
+    {
+      "p_eve": 0.3,
+      "qber": 0.113553,
+      "predicted_qber": 0.075,
+      "key_rate": 0.0,
+      "chsh_S": 2.2356,
+      "sifted_len": 16380,
+      "final_key_bits": 0
+    },
+    {
+      "p_eve": 0.4,
+      "qber": 0.1221,
+      "predicted_qber": 0.1,
+      "key_rate": 0.0,
+      "chsh_S": 2.1111,
+      "sifted_len": 16382,
+      "final_key_bits": 0
+    },
+    {
+      "p_eve": 0.5,
+      "qber": 0.149573,
+      "predicted_qber": 0.125,
+      "key_rate": 0.0,
+      "chsh_S": 1.9651,
+      "sifted_len": 16384,
+      "final_key_bits": 0
+    },
+    {
+      "p_eve": 0.75,
+      "qber": 0.21978,
+      "predicted_qber": 0.1875,
+      "key_rate": 0.0,
+      "chsh_S": 1.6057,
+      "sifted_len": 16384,
+      "final_key_bits": 0
+    },
+    {
+      "p_eve": 1.0,
+      "qber": 0.282051,
+      "predicted_qber": 0.25,
+      "key_rate": 0.0,
+      "chsh_S": 1.2729,
+      "sifted_len": 16384,
+      "final_key_bits": 0
+    }
+  ]
+}

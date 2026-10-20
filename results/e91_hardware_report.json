@@ -1,0 +1,19 @@
+{
+  "generated": "2026-10-13 11:27:47",
+  "hardware_chsh": {
+    "backend": "ibm_fez",
+    "job_id": "db6qajg4qg6s73c571p0",
+    "correlations": [
+      0.61865,
+      0.60571,
+      0.61475,
+      -0.64697
+    ],
+    "S": 2.48608,
+    "S_std": 0.0221,
+    "violated": true,
+    "shots": 8192,
+    "wall_time_s": 107.8,
+    "calibration_time": "2026-10-13 10:20:46+08:00"
+  }
+}

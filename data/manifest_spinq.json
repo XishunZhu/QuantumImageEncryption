@@ -1,0 +1,25 @@
+{
+  "source": "spinq",
+  "created_utc": "2026-10-20T04:04:44Z",
+  "raw_bits": 67584,
+  "extracted_bits": 33678,
+  "extraction_rate": 0.4983172289878852,
+  "raw_stats": {
+    "n_bits": 67584,
+    "bias": 0.000473,
+    "shannon_bit": 0.999999,
+    "min_entropy_bit": 0.998634,
+    "von_neumann_rate": 0.5
+  },
+  "sha256_raw": "0c7863b02308501623382e85fe189907f99f01719c2bde81304d4e3392e7c564",
+  "sha256_extracted": "d58e96d79c3bb4c98641d1827059ca5cf58fdcde36f8db6840e11e33067d2e59",
+  "origin": {
+    "origin": "SpinQ Triangulum Pro (NMR, local device) aggregate counts",
+    "csv": "F:\\\u6234\u660e\u742a\\spinq_counts.csv",
+    "n_qubits": 3,
+    "perm_seed": 20261020,
+    "toeplitz_seed": 20261013,
+    "note": "NMR backend returns an aggregate histogram only; per-shot temporal order is unavailable, so the stream is reconstructed from the histogram and permuted with a fixed seed. Bias and min-entropy are permutation-invariant; autocorrelation is not a meaningful device diagnostic for this source.",
+    "ingested_utc": "2026-10-20T04:04:44Z"
+  }
+}

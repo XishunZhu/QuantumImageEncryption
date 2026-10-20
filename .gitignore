@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv*/
+.venv/
+venv310/
+
+# Credentials -- NEVER commit these
+.env
+*.token
+qiskit-ibm.json
+
+# Local run artefacts
+*.log
+dataset/*.csv.tmp
+*.ckpt
+*_checkpoint.bin
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
