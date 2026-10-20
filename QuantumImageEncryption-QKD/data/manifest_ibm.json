@@ -1,0 +1,56 @@
+{
+  "schema": "qip-qrng-dataset/v1",
+  "created_utc": "2026-10-13T10:04:30+00:00",
+  "source": "ibm",
+  "raw_bits": 4194304,
+  "extracted_bits": 1841079,
+  "extraction_rate": 0.438948,
+  "toeplitz": {
+    "construction": "Toeplitz universal hash, m x (L+m-1) seed",
+    "seed": 20261013,
+    "seed_is_public": true,
+    "security_basis": "leftover hash lemma; seed independent of raw stream"
+  },
+  "raw_stats": {
+    "n_bits": 4194304,
+    "bias": 0.043407,
+    "shannon_bit": 0.994557,
+    "min_entropy_bit": 0.879895,
+    "von_neumann_rate": 0.4962
+  },
+  "files": {
+    "ibm_raw.bin": {
+      "bytes": 524288,
+      "sha256": "373e8506c9600dbbeb4bffa603a11c658156f42e7402d3d9b00f30a9f0fd72f7"
+    },
+    "ibm_extracted.bin": {
+      "bytes": 230135,
+      "sha256": "110f9a2d41d7713d4d68c076270750883204113f554ff1b7255391bc3a76845d"
+    }
+  },
+  "provenance": {
+    "source": "ibm-qpu",
+    "backend": "ibm_fez",
+    "n_qubits_processor": 156,
+    "shots_per_job": 4096,
+    "n_jobs": 64,
+    "wall_time_s": 104.81,
+    "job_id": "db6vugklf4us73db1evg",
+    "transpiled_depth": 104,
+    "transpiled_ops": {
+      "sx": 165,
+      "cz": 102,
+      "rz": 32,
+      "measure": 16,
+      "barrier": 1
+    },
+    "median_t1_us": 161.5,
+    "calibration_time": "2026-10-13 16:36:55+08:00",
+    "circuit": "4x4 grid cluster state, H layer + 24 CZ edges, Z-basis measurement"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "numpy": "2.5.3",
+    "qiskit": "n/a"
+  }
+}

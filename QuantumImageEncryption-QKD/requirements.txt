@@ -1,0 +1,16 @@
+# Core numerical stack (required)
+numpy>=1.24
+
+# Quantum simulation and hardware access
+qiskit>=1.0
+qiskit-aer>=0.13
+qiskit-ibm-runtime>=0.20
+
+# ANU QRNG client (optional; only needed for --source aqn)
+requests>=2.31
+
+# SpinQ Triangulum Pro (optional; only needed for harvest_spinq.py)
+# NOTE: the vendor SDK supports Python 3.8-3.10 only, so install it inside a
+# dedicated virtual environment rather than alongside the Qiskit stack:
+#   py -3.10 -m venv venv310 && venv310/Scripts/pip install spinqit numpy
+# spinqit
